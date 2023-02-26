@@ -1,12 +1,13 @@
 package ru.ck105;
 
 public class Main {
-    public static void main(String[] args) {
+    privite static String msg = "Hello guru!!!!!!!"
 
+    public static void main(String[] args) {
         System.out.println(getMessage());
     }
 
     private static String getMessage() {
-        return "Hello guru"
+        return msg;
     }
 }
